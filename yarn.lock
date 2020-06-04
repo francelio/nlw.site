@@ -1859,6 +1859,11 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
+"@types/history@*":
+  version "4.7.6"
+  resolved "https://registry.yarnpkg.com/@types/history/-/history-4.7.6.tgz#ed8fc802c45b8e8f54419c2d054e55c9ea344356"
+  integrity sha512-GRTZLeLJ8ia00ZH8mxMO8t0aC9M1N9bN461Z2eaRurJo6Fpa+utgCwLzI4jQHcrdzuzp5WPN9jRwpsCQ1VhJ5w==
+
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.1.tgz#42995b446db9a48a11a07ec083499a860e9138ff"
@@ -1928,7 +1933,24 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.9.0":
+"@types/react-router-dom@^5.1.5":
+  version "5.1.5"
+  resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-5.1.5.tgz#7c334a2ea785dbad2b2dcdd83d2cf3d9973da090"
+  integrity sha512-ArBM4B1g3BWLGbaGvwBGO75GNFbLDUthrDojV2vHLih/Tq8M+tgvY1DSwkuNrPSwdp/GUL93WSEpTZs8nVyJLw==
+  dependencies:
+    "@types/history" "*"
+    "@types/react" "*"
+    "@types/react-router" "*"
+
+"@types/react-router@*":
+  version "5.1.7"
+  resolved "https://registry.yarnpkg.com/@types/react-router/-/react-router-5.1.7.tgz#e9d12ed7dcfc79187e4d36667745b69a5aa11556"
+  integrity sha512-2ouP76VQafKjtuc0ShpwUebhHwJo0G6rhahW9Pb8au3tQTjYXd2jta4wv6U2tGLR/I42yuG00+UXjNYY0dTzbg==
+  dependencies:
+    "@types/history" "*"
+    "@types/react" "*"
+
+"@types/react@*", "@types/react@^16.9.35":
   version "16.9.35"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.35.tgz#a0830d172e8aadd9bd41709ba2281a3124bbd368"
   integrity sha512-q0n0SsWcGc8nDqH2GJfWQWUOmZSJhXV64CjVN5SvcNti3TdEaA3AH0D8DwNmMdzjMAC/78tB8nAZIlV8yTz+zQ==
@@ -2214,9 +2236,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1, acorn@^6.0.4, acorn@^6.2.1:
   version "6.4.0"
@@ -8992,6 +9014,13 @@ react-error-overlay@^6.0.7:
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
   integrity sha512-TAv1KJFh3RhqxNvhzxj6LeT5NWklP6rDr2a0jaTfsZ5wSZWHOGeqQyejUp3xxLfPt2UpyJEcVQB/zyPcmonNFA==
+
+react-icons@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-3.10.0.tgz#6c217a2dde2e8fa8d293210023914b123f317297"
+  integrity sha512-WsQ5n1JToG9VixWilSo1bHv842Cj5aZqTGiS3Ud47myF6aK7S/IUY2+dHcBdmkQcCFRuHsJ9OMUI0kTDfjyZXQ==
+  dependencies:
+    camelcase "^5.0.0"
 
 react-is@^16.12.0:
   version "16.13.1"
